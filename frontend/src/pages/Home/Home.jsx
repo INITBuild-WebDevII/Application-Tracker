@@ -1,6 +1,7 @@
 import "./Home.css";
 import Navbar from "../../components/Navbar";
 import LandingSection from "./LandingSection";
+import FirstSection from "./FirstSection";
 
 function Home() {
   return (
@@ -10,12 +11,7 @@ function Home() {
         <LandingSection />
       </div>
       <div className="first-section">
-        <h1>Track your applications</h1>
-        <p>
-          Our dashboard helps you keep track of all your technical job
-          applications in one place. Stay organized and on top of your job
-          search with Appli.
-        </p>
+        <FirstSection />
       </div>
       <div className="section">
         <h1>Find Jobs</h1>
